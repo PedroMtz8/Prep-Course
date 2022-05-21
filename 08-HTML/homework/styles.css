@@ -1,6 +1,27 @@
-h1 {
-    color:blue
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
+
+div {
+    height: 150px;
+    width: 600px;
+    border: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+h1 {
+    color:blue;
+    font-size: 32px;
+}
+
+h3, h4 {
+    color: aqua;
+    padding: 10px 0px;
+}
+
 img{
     width: 400px;
 }
@@ -14,4 +35,24 @@ img{
 #spanId {
     font-size: 18px;
     margin: 50px;
+    color: aqua;
+}
+
+
+.divClass a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.divClass a:hover {
+    color: blueviolet;
+    border-bottom:2px solid blueviolet;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/77/42/0d/77420df3f9e33db5b79ee25455d3340e.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
 }
