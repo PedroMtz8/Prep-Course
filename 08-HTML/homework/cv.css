@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    justify-items: center;
+}
+
+.personalInfo h1 {
+    color: rgb(255, 123, 0);
+    margin: 0;
+    text-shadow: black 2px 2px 2px;
+    
+}
+
+.personalInfo b {
+    font-size: 36px;
+    color: beige;
+}
+
+.personalInfo span {
+    color: rgb(241, 241, 14);
+}
+
+.skills li {
+    list-style: inside;
+}
+
+.hobbies li {
+    list-style:inside;
+}
+
+
+body {
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+
+.photo img {
+    width: 300px;
+    margin-left: 40px;
+}
+
+.explicacion {
+    text-align: center;
+    padding: 0px 60px;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    border-bottom: 2px solid white;
+}
+
+.links a:hover {
+    color: gray;
+    border-bottom: 2px solid gray;
+}
